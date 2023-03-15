@@ -1,0 +1,124 @@
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  body {
+    background-image: url(images/pexels-alexander-grey-842682.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 100vh;
+  }
+  h1 {
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 5rem;
+    color: #FB2576;
+  }    
+  p {
+    font-size: 1rem;
+    font-family:"Montserrat";
+    color:#d11c1c ;
+  }
+  button{
+    padding: 5px;
+  }
+.img{
+    position: relative;
+    top: 40px;
+    width: 200px;
+    height: 150px;
+}
+#result-message{
+    position: relative;
+    bottom: 90px;
+    font-size: 20px;
+    color: #fff;
+    font-family:'Courier New', Courier, monospace;
+}
+label{
+    font-family: 'Lobster', cursive;
+    color:   #e62209;
+}
+.girl{
+    padding: 25px;
+}
+.boy{
+    padding: 25px;
+}
+.se{
+    padding: 10px;
+    margin-top: 30px;
+    background:linear-gradient(#d11c89,#fb34e7) ;
+    font-family: "Merriweather";
+}
+.Final{
+  padding: 10px;
+  margin-top: 30px;
+  background:linear-gradient(#d11c65,#fb6434) ;
+  font-family: "Merriweather";
+  text-align: center;
+  font-size: 1rem;
+}
+#name1{
+    font-family: 'Lobster', cursive;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: #FFA3FD;
+    color : #d11c65;
+}
+#name2{
+    font-family: 'Lobster', cursive;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color:  #FFA3FD;
+    color:#fb6434;
+}
+footer{
+color: #fb6434;
+text-align: center;
+font-family: 'Indie Flower', cursive;
+margin-top: 100px;
+}
+
+@media (max-width:1900px) and (min-width:546px){
+    body{
+        background-image: url(images/pexels-alexander-grey-842682.jpg);
+         background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        height: 100vh;
+      }
+    .container {
+        width: 100%;
+        text-align: center;
+      }
+    label{
+        font-size: 2rem;
+        color:   #e62209;
+    }
+   
+    } 
+
+ @media (max-width:545px){
+   h1{
+     font-size: 3rem;
+     }
+     body{
+        height: 100vh;
+      }
+
+    .container {
+        width: 100%;
+        text-align: center;
+      }
+      .Final{
+        padding: 10px;
+        margin-top: 30px;
+        background:linear-gradient(#d11c65,#fb6434) ;
+        font-family: "Merriweather";
+        text-align: center;
+        font-size: 0.8rem;
+      }
+ }
